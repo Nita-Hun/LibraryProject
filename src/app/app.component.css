@@ -1,0 +1,27 @@
+h1{
+    text-align: center;
+    color: rgb(84, 6, 6);
+    font-size: 50px;
+    font-weight: bold;
+    background-color: #c9d6e2;
+}
+.table-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Optional: to center vertically within the viewport */
+    table-layout: fixed;
+  }
+  
+  table {
+    border-collapse: collapse;
+    width: auto; /* Adjust based on your needs */
+  }
+  
+  th, td {
+    border: 1px solid black;
+    padding: 8px;
+    text-align: left;
+  }
+
+  

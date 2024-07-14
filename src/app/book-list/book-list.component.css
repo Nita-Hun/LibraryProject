@@ -1,0 +1,48 @@
+h2{
+    color: blue;
+    font-size: 30px;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.table-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10vh; /* Optional: to center vertically within the viewport */
+  }
+  
+  table {
+    border-collapse: collapse;
+    width: 100%; /* Adjust based on your needs */
+    table-layout: fixed;
+  }
+  
+  th, td {
+    border: 1px solid rgb(118, 113, 113);
+    padding: 15px;
+    text-align: center;
+  }
+  td button{
+    margin: 5px;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+  }
+  td button:hover {
+    background-color: #0056b3;
+  }
+  .table-container button{
+    margin: 5px;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+  }
+  .table-container button:hover {
+    background-color: #0056b3;
+  } 

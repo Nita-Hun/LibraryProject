@@ -1,13 +1,17 @@
 import { Component } from '@angular/core';
-import { RouterOutlet } from '@angular/router';
+import { RouterModule } from '@angular/router';
+import { BookListComponent } from './book-list/book-list.component';
+import { BookFormComponent } from './book-form/book-form.component';
+import { FormBuilder, FormGroup, ReactiveFormsModule, Validators } from '@angular/forms';
 
 @Component({
   selector: 'app-root',
-  standalone: true,
-  imports: [RouterOutlet],
   templateUrl: './app.component.html',
-  styleUrl: './app.component.css'
+  styleUrls: ['./app.component.css'],
+  standalone: true,
+  imports: [RouterModule, BookListComponent, BookFormComponent, ReactiveFormsModule]
 })
 export class AppComponent {
-  title = 'library-app';
+  title = 'Library-app';
 }
+
